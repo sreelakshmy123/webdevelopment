@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    width: 100%;
+    background-color: rgba(389, 8, 58, 0.15);
+    padding: 20px;
+    position: absolute;
+    top: 0;
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: rgba(8, 8, 95, 0.77);
+}
+
+header .container{
+    display: flex;
+     justify-content:space-between; 
+
+}
+
+.banner-container{
+    margin-top: 100px;
+    height: 100vh;
+    background: linear-gradient(red,blue,green),url("C:\Users\Home\Desktop\JS\image\unnamed.jpg");
+    display: flex;
+    background-position: center;
+
+
+}
+
+.banner-container.container{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+
+}
+.left-section h1{
+    margin: 0;
+    font-size:23px;
+    color:wheat;
+    
+
+}
+
+.left-section p{
+    
+}
+   
